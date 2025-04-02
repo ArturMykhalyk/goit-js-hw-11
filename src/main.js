@@ -24,7 +24,3 @@ form.addEventListener('submit', event => {
 
   form.reset();
 });
-
-function pause(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}

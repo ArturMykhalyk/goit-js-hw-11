@@ -55,12 +55,12 @@ function clearGallery() {
 
 //  Ця функція нічого не приймає, повинна додавати клас для відображення лоадера. Нічого не повертає.
 function showLoader() {
-  document.querySelector('.load').classList.add('loader');
+  document.querySelector('.loader').classList.add('visible');
 }
 
 //  Ця функція нічого не приймає, повинна прибирати клас для відображення лоадера. Нічого не повертає
 function hideLoader() {
-  document.querySelector('.load').classList.remove('loader');
+  document.querySelector('.loader').classList.remove('visible');
 }
 
 export { createGallery, clearGallery, showLoader, hideLoader };
